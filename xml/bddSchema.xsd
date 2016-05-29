@@ -5,6 +5,8 @@
 
     <xsd:element name="id" type="xsd:int"/>
 
+    <xsd:element name="idType" type="xsd:int"/>
+
     <xsd:element name="nom" type="xsd:string"/>
      
     <xsd:element name="image" type="xsd:string"/>
@@ -45,7 +47,7 @@
 
         <xsd:sequence>
 
-            <xsd:element ref="id"/>
+            <xsd:element ref="idType"/>
 
             <xsd:element ref="forme"/>
 

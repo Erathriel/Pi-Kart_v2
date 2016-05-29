@@ -1,46 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <racine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="bddSchema.xsd">
         <BDD>
-        	<!-- Les panneaux-->
+        	<!-- Les panneaux -->
         	<Panneaux>
+                        <!-- Les panneaux de limitation de vitesse -->
 		        <Panneau>
 		              <id> 1 </id>
 		              <nom> limitation 30 </nom>
 		              <images><img src="images/panneau30.jpg" /></images>
 		              <type_id> 1 </type_id>
 		        </Panneau>
-        	</Panneaux>
-        	<!-- Les types de panneaux-->
+                        <Panneau>
+                              <id> 2 </id>
+                              <nom> limitation 50 </nom>
+                              <images><img src="images/panneau50.jpg" /></images>
+                              <type_id> 1 </type_id>
+                        </Panneau>
+                        <Panneau>
+                              <id> 3 </id>
+                              <nom> limitation 70 </nom>
+                              <images><img src="images/panneau70.jpg" /></images>
+                              <type_id> 1 </type_id>
+                        </Panneau>
+                        <Panneau>
+                              <id> 4 </id>
+                              <nom> limitation 90 </nom>
+                              <images><img src="images/panneau90.jpg" /></images>
+                              <type_id> 1 </type_id>
+                        </Panneau>
+                        <Panneau>
+                              <id> 5 </id>
+                              <nom> limitation 110 </nom>
+                              <images><img src="images/panneau110.jpg" /></images>
+                              <type_id> 1 </type_id>
+                        </Panneau>
+                        <Panneau>
+                              <id> 6 </id>
+                              <nom> limitation 130 </nom>
+                              <images><img src="images/panneau130.jpg" /></images>
+                              <type_id> 1 </type_id>
+                        </Panneau>
+                        <!-- Le panneau sens interdit -->
+                        <Panneau>
+                              <id> 7 </id>
+                              <nom> sens interdit </nom>
+                              <images><img src="images/sensInterdit.jpg" /></images>
+                              <type_id> 1 </type_id>
+                        </Panneau>
+                        <!-- Le panneau stop -->
+                        <Panneau>
+                              <id> 8 </id>
+                              <nom> stop </nom>
+                              <images><img src="images/stop.jpg" /></images>
+                              <type_id> 3 </type_id>
+                        </Panneau>
+                </Panneaux>
+        	<!-- Les types de panneaux -->
         	<typePanneaux>
-        		<!-- Limitation-->
+        		<!-- Limitation -->
 		        <typePanneau>
-			     <id> 1 </id>
+			     <idType> 1 </idType>
 			     <forme> circulaire </forme>
 			     <libelle> limitation </libelle>
                         </typePanneau>
-        		<!-- Danger-->
+        		<!-- Danger -->
 		        <typePanneau>
-		              <id> 2 </id>
+		              <idType> 2 </idType>
 		              <forme> triangulaire </forme>
 		              <libelle> danger </libelle>
 		        </typePanneau>
-        		<!-- Arret-->
+        		<!-- Arret -->
 		        <typePanneau>
-		              <id> 3 </id>
+		              <idType> 3 </idType>
 		              <forme> hexagonal </forme>
 		              <libelle> stop </libelle>
 		        </typePanneau>
         		<!-- Indication -->
 		        <typePanneau>
-		              <id> 4 </id>
+		              <idType> 4 </idType>
 		              <forme> carre </forme>
 		              <libelle> indication </libelle>
 		        </typePanneau>
-        		<!-- Obligation-->
+        		<!-- Obligation -->
 		        <typePanneau>
-		              <id> 5 </id>
+		              <idType> 5 </idType>
 		              <forme> circulaire </forme>
 		              <libelle> Obligation </libelle>
 		        </typePanneau>
