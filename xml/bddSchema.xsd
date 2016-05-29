@@ -1,7 +1,123 @@
-<!-- Prologue ! -->
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Racine ! -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	
+
+
+    <xsd:element name="id" type="xsd:int"/>
+
+    <xsd:element name="nom" type="xsd:string"/>
+     
+    <xsd:element name="image" type="xsd:string"/>
+
+    <xsd:element name="type_id" type="xsd:int"/>
+
+    <xsd:element name="forme" type="xsd:string"/>
+
+    <xsd:element name="libelle" type="xsd:string"/>
+
+
+
+
+    <xsd:element name="panneau">
+
+        <xsd:complexType>
+
+        <xsd:sequence>
+
+            <xsd:element ref="id"/>
+
+            <xsd:element ref="nom"/>
+
+            <xsd:element ref="image"/>
+
+            <xsd:element ref="type_id"/>
+
+        </xsd:sequence>
+
+    </xsd:complexType>
+
+    </xsd:element>
+
+
+        <xsd:element name="typePanneau">
+
+        <xsd:complexType>
+
+        <xsd:sequence>
+
+            <xsd:element ref="id"/>
+
+            <xsd:element ref="forme"/>
+
+            <xsd:element ref="libelle"/>
+
+        </xsd:sequence>
+
+    </xsd:complexType>
+
+    </xsd:element>
+
+
+
+
+
+  <xsd:element name="Panneaux">
+
+        <xsd:complexType>
+
+            <xsd:sequence>
+
+                <xsd:element ref="panneau" maxOccurs="unbounded" />
+         
+            </xsd:sequence>
+
+        </xsd:complexType>
+
+    </xsd:element>
+
+    <xsd:element name="typePanneaux">
+
+        <xsd:complexType>
+
+            <xsd:sequence>
+
+                <xsd:element ref="typePanneau" maxOccurs="unbounded" />
+         
+            </xsd:sequence>
+
+        </xsd:complexType>
+
+    </xsd:element>
+
+
+  <xsd:element name="BDD">
+
+        <xsd:complexType>
+
+            <xsd:sequence>
+
+                <xsd:element ref="Panneaux" maxOccurs="1" />
+                <xsd:element ref="typePanneaux" maxOccurs="1" />
+         
+            </xsd:sequence>
+
+        </xsd:complexType>
+
+    </xsd:element>
+
+
+    <xsd:element name="racine">
+
+        <xsd:complexType>
+
+            <xsd:sequence>
+
+                <xsd:element ref="BDD" maxOccurs="1" />
+         
+            </xsd:sequence>
+
+        </xsd:complexType>
+
+    </xsd:element>
+
 </xsd:schema>

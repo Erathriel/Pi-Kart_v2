@@ -8,8 +8,7 @@
 		        <Panneau>
 		              <id> 1 </id>
 		              <nom> limitation 30 </nom>
-		              <forme> circulaire </forme>
-		              <image></image>
+		              <images><img src="images/panneau30.jpg" /></images>
 		              <type_id> 1 </type_id>
 		        </Panneau>
         	</Panneaux>
