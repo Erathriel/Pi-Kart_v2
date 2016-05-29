@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<racine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="bddSchema.xsd">
+        <BDD>
+        	<!-- Les panneaux-->
+        	<Panneaux>
+		        <Panneau>
+		              <id> 1 </id>
+		              <nom> limitation 30 </nom>
+		              <forme> circulaire </forme>
+		              <image></image>
+		              <type_id> 1 </type_id>
+		        </Panneau>
+        	</Panneaux>
+        	<!-- Les types de panneaux-->
+        	<typePanneaux>
+        		<!-- Limitation-->
+		        <typePanneau>
+			     <id> 1 </id>
+			     <forme> circulaire </forme>
+			     <libelle> limitation </libelle>
+                        </typePanneau>
+        		<!-- Danger-->
+		        <typePanneau>
+		              <id> 2 </id>
+		              <forme> triangulaire </forme>
+		              <libelle> danger </libelle>
+		        </typePanneau>
+        		<!-- Arret-->
+		        <typePanneau>
+		              <id> 3 </id>
+		              <forme> hexagonal </forme>
+		              <libelle> stop </libelle>
+		        </typePanneau>
+        		<!-- Indication -->
+		        <typePanneau>
+		              <id> 4 </id>
+		              <forme> carre </forme>
+		              <libelle> indication </libelle>
+		        </typePanneau>
+        		<!-- Obligation-->
+		        <typePanneau>
+		              <id> 5 </id>
+		              <forme> circulaire </forme>
+		              <libelle> Obligation </libelle>
+		        </typePanneau>
+        	</typePanneaux>
+        </BDD>
+</racine>
