@@ -56,6 +56,20 @@
                               <images><img src="images/stop.jpg" /></images>
                               <type_id> 3 </type_id>
                         </Panneau>
+                        <!-- Le panneau autoroute -->
+                        <Panneau>
+                              <id> 9 </id>
+                              <nom> autoroute </nom>
+                              <images><img src="images/panneauAutoroute.gif" /></images>
+                              <type_id> 4 </type_id>
+                        </Panneau>
+                        <!-- Le panneau tourner a droite -->
+                        <Panneau>
+                              <id> 10 </id>
+                              <nom> tourner a droite </nom>
+                              <images><img src="images/panneauTournerADroite.gif" /></images>
+                              <type_id> 5 </type_id>
+                        </Panneau>
                 </Panneaux>
         	<!-- Les types de panneaux -->
         	<typePanneaux>
