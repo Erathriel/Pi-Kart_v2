@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="idType" type="xsd:int"/>
+	<xsd:element name="forme" type="xsd:string"/>
+	<xsd:element name="libelle" type="xsd:string"/>
+	<xsd:element name="couleur" type="xsd:string"/>
+
+	<xsd:element name="typePanneau">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="idType"/>
+				<xsd:element ref="forme"/>
+				<xsd:element ref="libelle"/>
+				<xsd:element ref="couleur"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="typePanneaux">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="typePanneau" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="BDD">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="typePanneaux" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="racine">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="BDD" maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

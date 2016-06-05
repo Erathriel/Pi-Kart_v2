@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<racine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="PanneauxSchema.xsd">
+        <BDD>
+        	<!-- Les panneaux -->
+        	<Panneaux>
+        		<!-- Les panneaux de limitation de vitesse -->
+        		<Panneau>
+        			<id> 1 </id>
+        			<nom> limitation 30 </nom>
+        			<images><img src="images/panneau30.jpg" /></images>
+        			<contenu> 30 </contenu>
+        			<type_id> 1 </type_id>
+        		</Panneau>
+        		<Panneau>
+        			<id> 2 </id>
+        			<nom> limitation 50 </nom>
+        			<images><img src="images/panneau50.jpg" /></images>
+        			<contenu> 50 </contenu>
+        			<type_id> 1 </type_id>
+        		</Panneau>
+        		<Panneau>
+        			<id> 3 </id>
+        			<nom> limitation 70 </nom>
+        			<images><img src="images/panneau70.jpg" /></images>
+        			<contenu> 70 </contenu>
+        			<type_id> 1 </type_id>
+        		</Panneau>
+        		<Panneau>
+        			<id> 4 </id>
+        			<nom> limitation 90 </nom>
+        			<images><img src="images/panneau90.jpg" /></images>
+        			<contenu> 90 </contenu>
+        			<type_id> 1 </type_id>
+        		</Panneau>
+        		<Panneau>
+        			<id> 5 </id>
+        			<nom> limitation 110 </nom>
+        			<images><img src="images/panneau110.jpg" /></images>
+        			<contenu> 110 </contenu>
+        			<type_id> 1 </type_id>
+        		</Panneau>
+        		<Panneau>
+        			<id> 6 </id>
+        			<nom> limitation 130 </nom>
+        			<images><img src="images/panneau130.jpg" /></images>
+        			<contenu> 130 </contenu>
+        			<type_id> 1 </type_id>
+        		</Panneau>
+        		<!-- Le panneau sens interdit -->
+        		<panneau>
+        			<id> 7 </id>
+        			<nom> sens interdit </nom>
+        			<images><img src="images/sensInterdit.jpg" /></images>
+        			<contenu> Barre </contenu>
+        			<type_id> 6 </type_id>
+        		</panneau>
+        		<!-- Le panneau stop -->
+        		<panneau>
+        			<id> 8 </id>
+        			<nom> stop </nom>
+        			<images><img src="images/stop.jpg" /></images>
+        			<contenu> STOP </contenu>
+        			<type_id> 3 </type_id>
+        		</panneau>
+        		<!-- Le panneau autoroute -->
+        		<panneau>
+        			<id> 9 </id>
+        			<nom> autoroute </nom>
+        			<images><img src="images/panneauAutoroute.gif" /></images>
+        			<contenu> Dessin </contenu>
+        			<type_id> 4 </type_id>
+        		</panneau>
+        		<!-- Le panneau tourner a droite -->
+        		<panneau>
+        			<id> 10 </id>
+        			<nom> tourner a droite </nom>
+        			<images><img src="images/panneauTournerADroite.gif" /></images>
+        			<contenu> Fleche droite </contenu>
+        			<type_id> 5 </type_id>
+        		</panneau>
+        	</Panneaux>
+        </BDD>
+</racine>
