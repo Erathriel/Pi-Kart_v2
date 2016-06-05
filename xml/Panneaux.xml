@@ -49,37 +49,37 @@
         			<type_id> 1 </type_id>
         		</Panneau>
         		<!-- Le panneau sens interdit -->
-        		<panneau>
+        		<Panneau>
         			<id> 7 </id>
         			<nom> sens interdit </nom>
         			<images><img src="images/sensInterdit.jpg" /></images>
         			<contenu> Barre </contenu>
         			<type_id> 6 </type_id>
-        		</panneau>
+        		</Panneau>
         		<!-- Le panneau stop -->
-        		<panneau>
+        		<Panneau>
         			<id> 8 </id>
         			<nom> stop </nom>
         			<images><img src="images/stop.jpg" /></images>
         			<contenu> STOP </contenu>
         			<type_id> 3 </type_id>
-        		</panneau>
+        		</Panneau>
         		<!-- Le panneau autoroute -->
-        		<panneau>
+        		<Panneau>
         			<id> 9 </id>
         			<nom> autoroute </nom>
         			<images><img src="images/panneauAutoroute.gif" /></images>
         			<contenu> Dessin </contenu>
         			<type_id> 4 </type_id>
-        		</panneau>
+        		</Panneau>
         		<!-- Le panneau tourner a droite -->
-        		<panneau>
+        		<Panneau>
         			<id> 10 </id>
         			<nom> tourner a droite </nom>
         			<images><img src="images/panneauTournerADroite.gif" /></images>
         			<contenu> Fleche droite </contenu>
         			<type_id> 5 </type_id>
-        		</panneau>
+        		</Panneau>
         	</Panneaux>
         </BDD>
 </racine>
