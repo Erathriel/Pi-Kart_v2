@@ -14,3 +14,8 @@ class Panneaux:  # Def de la classe Panneaux
         self.images = images
         self.contenu = contenu
         self.type_id = type_id
+
+    def __str__(self):
+        """Affichage des objets !"""
+        return "id : {} \n nom : {} \n images : {} \n contenu : {} \n type : {} \n".format(
+                self.id, self.nom, self.images,self.contenu,self.type_id)
