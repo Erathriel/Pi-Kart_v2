@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <racine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="TypePanneauxSchema.xsd">
+        xsi:noNamespaceSchemaLocation="Type_PanneauxSchema.xsd">
         <BDD>
         	<!-- Les types de panneaux -->
         	<typePanneaux>
         		<!-- Limitation -->
         		<typePanneau>
-        			<idType>1</idType>
-        			<forme>Circulaire</forme>
-        			<libelle>Limitation</libelle>
-        			<couleur>Rouge</couleur>
+        			<idType> 1 </idType>
+        			<forme> circulaire </forme>
+        			<libelle> Limitation </libelle>
+        			<couleur> Rouge </couleur>
         		</typePanneau>
         		<!-- Danger -->
         		<typePanneau>

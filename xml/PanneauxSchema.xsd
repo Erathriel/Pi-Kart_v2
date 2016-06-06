@@ -3,16 +3,16 @@
 
 	<xsd:element name="id" type="xsd:int"/>
 	<xsd:element name="nom" type="xsd:string"/>
-	<xsd:element name="image" type="xsd:string"/>
+	<xsd:element name="images" type="xsd:string"/>
 	<xsd:element name="contenu" type="xsd:string"/>
 	<xsd:element name="type_id" type="xsd:int"/>
 
-	<xsd:element name="panneau">
+	<xsd:element name="Panneau">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element ref="id"/>
 				<xsd:element ref="nom"/>
-				<xsd:element ref="image"/>
+				<xsd:element ref="images"/>
 				<xsd:element ref="contenu"/>
 				<xsd:element ref="type_id"/>
 			</xsd:sequence>
@@ -22,7 +22,7 @@
 	<xsd:element name="Panneaux">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="panneau" maxOccurs="unbounded" />
+				<xsd:element ref="Panneau" maxOccurs="unbounded" />
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
