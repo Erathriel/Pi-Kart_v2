@@ -11,10 +11,11 @@ L1 =[]
 L2 =[]
 for Panneau in tree.xpath("/racine/BDD/Panneaux/Panneau"):
     for a in Panneau.getchildren() :
-        if (a.text!=None) :
-            L1.append(a.text)
-        if (a.get("src")!=None) :
-          L1.append(a.get("src"))
+       for a in Panneau.getchildren() :
+            if (a.text!=None) :
+                 L1.append(a.text)
+            if (a.get("src")!=None) :
+                L1.append(a.get("src"))
     L2.append(Panneaux(L1[0],L1[1],L1[2],L1[3],L1[4]))
     del (L1[:])
 
