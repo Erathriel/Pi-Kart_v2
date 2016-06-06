@@ -7,45 +7,45 @@
         	<typePanneaux>
         		<!-- Limitation -->
         		<typePanneau>
-        			<idType> 1 </idType>
-        			<forme> circulaire </forme>
-        			<libelle> Limitation </libelle>
-        			<couleur> Rouge </couleur>
+        			<idType>1</idType>
+        			<forme>Circulaire</forme>
+        			<libelle>Limitation</libelle>
+        			<couleur>Rouge</couleur>
         		</typePanneau>
         		<!-- Danger -->
         		<typePanneau>
-        			<idType> 2 </idType>
-        			<forme> triangulaire </forme>
-        			<libelle> danger </libelle>
-        			<couleur> Rouge </couleur>
+        			<idType>2</idType>
+        			<forme>Triangulaire</forme>
+        			<libelle>Danger</libelle>
+        			<couleur>Rouge</couleur>
         		</typePanneau>
         		<!-- Arret -->
         		<typePanneau>
-        			<idType> 3 </idType>
-        			<forme> hexagonal </forme>
-        			<libelle> stop </libelle>
-        			<couleur> Rouge </couleur>
+        			<idType>3</idType>
+        			<forme>Hexagonal</forme>
+        			<libelle>Stop</libelle>
+        			<couleur>Rouge</couleur>
         		</typePanneau>
         		<!-- Indication -->
         		<typePanneau>
-        			<idType> 4 </idType>
-        			<forme> carre </forme>
-        			<libelle> indication </libelle>
-        			<couleur> Bleu </couleur>
+        			<idType>4</idType>
+        			<forme>Carre</forme>
+        			<libelle>Indication</libelle>
+        			<couleur>Bleu</couleur>
         		</typePanneau>
         		<!-- Obligation -->
         		<typePanneau>
-        			<idType> 5 </idType>
-        			<forme> circulaire </forme>
-        			<libelle> Obligation </libelle>
-        			<couleur> Bleu </couleur>
+        			<idType>5</idType>
+        			<forme>circulaire</forme>
+        			<libelle>Obligation</libelle>
+        			<couleur>Bleu</couleur>
         		</typePanneau>
         		<!-- Interdiction -->
         		<typePanneau>
-        			<idType> 6 </idType>
-        			<forme> circulaire </forme>
-        			<libelle> Obligation </libelle>
-        			<couleur > Rouge </couleur>
+        			<idType>6</idType>
+        			<forme>Circulaire</forme>
+        			<libelle>Obligation</libelle>
+        			<couleur>Rouge</couleur>
         		</typePanneau>
         	</typePanneaux>
         </BDD>

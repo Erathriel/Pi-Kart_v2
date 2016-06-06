@@ -7,78 +7,78 @@
         	<Panneaux>
         		<!-- Les panneaux de limitation de vitesse -->
         		<Panneau>
-        			<id> 1 </id>
-        			<nom> limitation 30 </nom>
+        			<id>1</id>
+        			<nom>Limitation 30</nom>
         			<images>images/panneau30.jpg</images>
-        			<contenu> 30 </contenu>
-        			<type_id> 1 </type_id>
+        			<contenu>30</contenu>
+        			<type_id>1</type_id>
         		</Panneau>
         		<Panneau>
-        			<id> 2 </id>
-        			<nom> limitation 50 </nom>
+        			<id>2</id>
+        			<nom>Limitation 50</nom>
         			<images>images/panneau50.jpg</images>
-        			<contenu> 50 </contenu>
-        			<type_id> 1 </type_id>
+        			<contenu>50</contenu>
+        			<type_id>1</type_id>
         		</Panneau>
         		<Panneau>
-        			<id> 3 </id>
-        			<nom> limitation 70 </nom>
+        			<id>3</id>
+        			<nom>Limitation 70</nom>
         			<images>images/panneau70.jpg</images>
-        			<contenu> 70 </contenu>
-        			<type_id> 1 </type_id>
+        			<contenu>70</contenu>
+        			<type_id>1</type_id>
         		</Panneau>
         		<Panneau>
-        			<id> 4 </id>
-        			<nom> limitation 90 </nom>
+        			<id>4</id>
+        			<nom>Limitation 90</nom>
         			<images>images/panneau90.jpg</images>
-        			<contenu> 90 </contenu>
-        			<type_id> 1 </type_id>
+        			<contenu>90</contenu>
+        			<type_id>1</type_id>
         		</Panneau>
         		<Panneau>
-        			<id> 5 </id>
-        			<nom> limitation 110 </nom>
+        			<id>5</id>
+        			<nom>Limitation 110</nom>
         			<images>images/panneau110.png</images>
-        			<contenu> 110 </contenu>
-        			<type_id> 1 </type_id>
+        			<contenu>110</contenu>
+        			<type_id>1</type_id>
         		</Panneau>
         		<Panneau>
-        			<id> 6 </id>
-        			<nom> limitation 130 </nom>
+        			<id>6</id>
+        			<nom>Limitation 130</nom>
         			<images>images/panneau130.png</images>
-        			<contenu> 130 </contenu>
-        			<type_id> 1 </type_id>
+        			<contenu>130</contenu>
+        			<type_id>1</type_id>
         		</Panneau>
         		<!-- Le panneau sens interdit -->
         		<Panneau>
-        			<id> 7 </id>
-        			<nom> sens interdit </nom>
+        			<id>7</id>
+        			<nom>Sens interdit</nom>
         			<images>images/sensInterdit.jpg</images>
-        			<contenu> Barre </contenu>
-        			<type_id> 6 </type_id>
+        			<contenu>Barre</contenu>
+        			<type_id>6</type_id>
         		</Panneau>
         		<!-- Le panneau stop -->
         		<Panneau>
-        			<id> 8 </id>
-        			<nom> stop </nom>
+        			<id>8</id>
+        			<nom>Stop</nom>
         			<images>images/stop.jpg</images>
-        			<contenu> STOP </contenu>
-        			<type_id> 3 </type_id>
+        			<contenu>STOP</contenu>
+        			<type_id>3</type_id>
         		</Panneau>
         		<!-- Le panneau autoroute -->
         		<Panneau>
-        			<id> 9 </id>
-        			<nom> autoroute </nom>
+        			<id>9</id>
+        			<nom>Autoroute</nom>
         			<images>images/panneauAutoroute.gif</images>
-        			<contenu> Dessin </contenu>
-        			<type_id> 4 </type_id>
+        			<contenu>Dessin</contenu>
+        			<type_id>4</type_id>
         		</Panneau>
         		<!-- Le panneau tourner a droite -->
         		<Panneau>
-        			<id> 10 </id>
-        			<nom> tourner a droite </nom>
+        			<id>10</id>
+        			<nom>Tourner a droite</nom>
         			<images>images/panneauTournerADroite.gif</images>
-        			<contenu> Fleche droite </contenu>
-        			<type_id> 5 </type_id>
+        			<contenu>Fleche droite</contenu>
+        			<type_id>5</type_id>
         		</Panneau>
         	</Panneaux>
         </BDD>
