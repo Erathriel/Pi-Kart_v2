@@ -33,6 +33,9 @@ class mainUI(Frame):
 
 	def tiragePanneau(self):
 		Panneau = panneau.randPan()
+		self.image = ImageTk.PhotoImage(Image.open("../"+Panneau.images))
+		self.can.delete(ALL)
+		self.can.create_image(10, 10, image=self.image, anchor='nw')
 		self.description['text']  = str(Panneau)
 
 test = mainUI()
