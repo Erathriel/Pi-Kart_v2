@@ -7,10 +7,10 @@
         	<typePanneaux>
         		<!-- Limitation -->
         		<typePanneau>
-        			<idType> 1 </idType>
-        			<forme> circulaire </forme>
-        			<libelle> limitation </libelle>
-        			<couleur> Rouge </couleur>
+        			<idType>1</idType>
+        			<forme>Circulaire</forme>
+        			<libelle>Limitation</libelle>
+        			<couleur>Rouge</couleur>
         		</typePanneau>
         		<!-- Danger -->
         		<typePanneau>

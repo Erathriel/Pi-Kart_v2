@@ -5,6 +5,8 @@ from lxml import etree
 from Panneaux import Panneaux
 from typePanneau import typePanneau
 
+import random
+
 def readPanneau():
     tree = etree.parse("../xml/Panneaux.xml")
     L1 =[]
@@ -78,3 +80,7 @@ def trierCouleur(listeP, listeT, couleur) :
 #print trierForme(L2, L4," circulaire ")
 #print trierCouleur(L2,L4," Bleu ")
 
+def randPan():
+    L=readPanneau()
+    i=random.randint(0,len(L)-1)
+    return L[i]
