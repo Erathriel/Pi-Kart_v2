@@ -1,0 +1,46 @@
+Les listePanneaux et listetypePanneaux sont des listes d'objets Panneaux et TypePanneaux dont les attributs sont extraits du xml
+
+fonction TrierForme(listePanneaux, listetypePanneaux, forme) {
+	L = []
+	idtype= []
+	for i de 0 à listetypePanneaux.taille :
+		if listetypePanneaux[i].forme = forme :
+			idtype.add(listetypePanneaux[i].idtype)
+			for j in idtype : 
+				if listePanneaux[j].idType = idType :
+					L.add(listePanneaux[j])
+	return L
+}
+
+fonction TrierCouleur(listePanneaux, listetypePanneaux, couleur) {
+	L = []
+	idtype = []
+	for i de 0 à listetypePanneaux.taille :
+		if listetypePanneaux[i].couleur = couleur :
+			idtype.add(listetypePanneaux[i].idtype)
+			for j in idtype : 
+				if listePanneaux[j].idType = idType :
+					L.add(listePanneaux[j])
+	return L
+}
+
+fonction TrierLibelle(listePanneaux, listetypePanneaux, libelle) {
+	L = []
+	idtype = []
+	for i de 0 à listetypePanneaux.taille :
+		if listetypePanneaux[i].libelle = libelle :
+			idtype.add(listetypePanneaux[i].idtype)
+			for j in idtype : 
+				if listePanneaux[j].idType = idType :
+					L.add(listePanneaux[j])
+	return L
+}
+
+fonction TrierContenu(listePanneaux, contenu) {
+	L = []
+	for i de 0 à listePanneaux.taille :
+			if listePanneaux[i].contenu = contenu :				L.add(listePanneaux[i])
+	return L
+}
+
+
