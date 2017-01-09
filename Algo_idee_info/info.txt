@@ -1,4 +1,4 @@
-Changement de langage : python ---> PHP 
+Changement de langage : python ---> php
 
 Interface graphique web pour un meilleur rendu visuel du programme. (on peut aussi ajouter qu'une fois le produit fini cette interface servirait de debug ou d'interface permettant l'amélioration du programme).
 
