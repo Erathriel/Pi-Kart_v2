@@ -2,13 +2,12 @@ Changement de langage : python ---> PHP
 
 Interface graphique web pour un meilleur rendu visuel du programme. (on peut aussi ajouter qu'une fois le produit fini cette interface servirait de debug ou d'interface permettant l'amélioration du programme).
 
-Aymane : - Parametrer l'api
-		 - Programme php requête php qvec une imqge -> api
-		 - Programme php récuperaton du Json et stocker dans un dossier Json
-
-Tiona : - Création de la BDD
-		- Affichage des différentes tables genres si on veut afficher la tables panneaux ou autre... via l'interface PHP
-		- Fonction de création de nouvelle table ou de nouvel donnée dans la BDD, modifier et supprimer.
+Aymane et Tiona : - Parametrer l'api
+		 		  - Programme php requête php qvec une imqge -> api
+				  - Programme php récuperaton du Json et stocker dans un dossier Json
+		 		  - Création de la BDD
+		 		  - Affichage des différentes tables genres si on veut afficher la tables panneaux ou autre... via l'interface PHP
+		  		  - Fonction de création de nouvelle table ou de nouvel donnée dans la BDD, modifier et supprimer.
 
 Moi et Antoine : - Interpretation du Json pour ne rcuperer que les valeurs qui nous interresse
 				 - Comparaison avec les valeurs des différents panneau de la BDD
