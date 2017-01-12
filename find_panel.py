@@ -3,15 +3,15 @@ import numpy as np
 import cv2
  
 # load the image
-image = cv2.imread("images/feu-vert.jpg")
+image = cv2.imread("images/feu-rouge.jpg")
  
 # find the red color in the image
-# upper = np.array([65, 65, 255])
-# lower = np.array([0, 0, 200])
+upper = np.array([65, 65, 255])
+lower = np.array([0, 0, 200])
 
 #find the green color
-upper = np.array([30, 255, 0])
-lower = np.array([0, 40, 0])
+#upper = np.array([30, 255, 0])
+#lower = np.array([0, 40, 0])
 mask = cv2.inRange(image, lower, upper)
  
 # find contours in the masked image and keep the largest one
