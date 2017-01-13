@@ -9,7 +9,7 @@ t2 = raw_input("Choisir image 2 : ")
 
 
 img1 = cv2.imread('../images/'+t1,0)
-img2 = cv2.imread('../images/'+t1,0)
+img2 = cv2.imread('../images/'+t2,0)
 # On initialise un objet ORB
 orb = cv2.ORB_create()
 # On cherche des point clef et on calcul les descripteurs
